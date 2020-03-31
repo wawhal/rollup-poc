@@ -7,7 +7,9 @@
     "node-fetch": "^2.6.0"
   },
   "scripts": {
-    "bundle": "rollup index.js --file bundle.js --format umd --name 'myBundle'"
+    "umd": "rollup index.js --file bundle.js --format umd --name 'myBundle'",
+    "iife": "rollup index.js --file bundle.js --format iife",
+    "cjs": "rollup index.js --file bundle.js --format cjs"
   },
   "devDependencies": {
     "rollup": "^2.3.1"
