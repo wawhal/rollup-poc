@@ -12,6 +12,6 @@
     "cjs": "rollup index.js --file bundle.js --format cjs"
   },
   "devDependencies": {
-    "rollup": "^2.3.1"
+    "rollup": "^2.79.2"
   }
 }
